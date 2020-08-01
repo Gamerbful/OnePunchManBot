@@ -13,7 +13,7 @@ const prefix = '!';
 
 //Paramètres
 
-const token = //token du bot;
+const token = process.env.TOKEN;
 
 
 cron.schedule('*/15 * * * * *', () => {
