@@ -2,7 +2,7 @@
   "engines": {
     "node": "= 12.18.2",
     "npm": "= 6.14.5"
-},
+  },
   "requires": true,
   "lockfileVersion": 1,
   "dependencies": {
@@ -517,23 +517,7 @@
       "resolved": "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.0.tgz",
       "version": "2.6.0"
     },
-    "node-pre-gyp": {
-      "integrity": "sha512-TwWAOZb0j7e9eGaf9esRx3ZcLaE5tQ2lvYy1pb5IAaG1a2e2Kv5Lms1Y4hpj+ciXJRofIxxlt5haeQ/2ANeE0Q==",
-      "requires": {
-        "detect-libc": "^1.0.2",
-        "mkdirp": "^0.5.1",
-        "needle": "^2.2.1",
-        "nopt": "^4.0.1",
-        "npm-packlist": "^1.1.6",
-        "npmlog": "^4.0.2",
-        "rc": "^1.2.7",
-        "rimraf": "^2.6.1",
-        "semver": "^5.3.0",
-        "tar": "^4"
-      },
-      "resolved": "https://registry.npmjs.org/node-pre-gyp/-/node-pre-gyp-0.11.0.tgz",
-      "version": "0.11.0"
-    },
+    "node-pre-gyp": "^0.15.0",
     "nopt": {
       "integrity": "sha512-CvaGwVMztSMJLOeXPrez7fyfObdZqNUK1cPAEzLHrTybIua9pMdmmPR5YwtfNftIOMv3DPUhFaxsZMNTQO20Kg==",
       "requires": {
