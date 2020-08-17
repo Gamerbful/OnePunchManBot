@@ -2,11 +2,12 @@ const Discord = require('discord.js');
 const fs = require('fs');
 const cron = require('node-cron');
 var request = require('request');
+const Canvas = require('canvas');
 const help = require('./src/help.js');
 const stuff = require('./src/stuff.js');
 const sortie_mod = require('./src/sortie.js');
 const chasse = require('./src/chasse.js');
-const Canvas = require('canvas');
+
 
 const client = new Discord.Client();
 const prefix = '!';
